@@ -1,0 +1,57 @@
+12:32:50.363 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/cvmfs/argon-private.hpc.uiowa.edu/ssoft/apps/2021.1/linux-centos7-cascadelake/gcc-9.3.0/gatk-4.1.8.1-rxqggrf/bin/gatk-package-4.1.8.1-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Feb 06, 2023 12:32:50 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+12:32:50.580 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+12:32:50.580 INFO  FastaAlternateReferenceMaker - The Genome Analysis Toolkit (GATK) v4.1.8.1
+12:32:50.580 INFO  FastaAlternateReferenceMaker - For support and documentation go to https://software.broadinstitute.org/gatk/
+12:32:50.581 INFO  FastaAlternateReferenceMaker - Executing as amoy2@argon-itf-bx47-02.hpc on Linux v3.10.0-1160.76.1.el7.x86_64 amd64
+12:32:50.581 INFO  FastaAlternateReferenceMaker - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_265-b01
+12:32:50.581 INFO  FastaAlternateReferenceMaker - Start Date/Time: February 6, 2023 12:32:50 PM CST
+12:32:50.581 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+12:32:50.581 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+12:32:50.581 INFO  FastaAlternateReferenceMaker - HTSJDK Version: 2.23.0
+12:32:50.581 INFO  FastaAlternateReferenceMaker - Picard Version: 2.22.8
+12:32:50.581 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+12:32:50.581 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+12:32:50.581 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+12:32:50.581 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+12:32:50.582 INFO  FastaAlternateReferenceMaker - Deflater: IntelDeflater
+12:32:50.582 INFO  FastaAlternateReferenceMaker - Inflater: IntelInflater
+12:32:50.582 INFO  FastaAlternateReferenceMaker - GCS max retries/reopens: 20
+12:32:50.582 INFO  FastaAlternateReferenceMaker - Requester pays: disabled
+12:32:50.582 INFO  FastaAlternateReferenceMaker - Initializing engine
+12:32:51.369 INFO  FeatureManager - Using codec VCFCodec to read file file:///Users/amoy2/unc_sinistra_vc/sequences/psin.sorted.RG.RD.RO.RC.SNP.filt.final.vcf
+12:32:51.804 INFO  FastaAlternateReferenceMaker - Done initializing engine
+12:32:51.809 INFO  ProgressMeter - Starting traversal
+12:32:51.809 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Bases Processed     Bases/Minute
+12:33:01.809 INFO  ProgressMeter -   tig00001411:116511              0.2              32554000      195324000.0
+12:33:11.809 INFO  ProgressMeter -     tig00003228:9253              0.3              68005000      204015000.0
+12:33:21.809 INFO  ProgressMeter -    tig00005563:36484              0.5             106807000      213614000.0
+12:33:31.809 INFO  ProgressMeter -    tig00007837:45911              0.7             145151000      217726500.0
+12:33:41.809 INFO  ProgressMeter -    tig00010513:28270              0.8             186216000      223459200.0
+12:33:51.809 INFO  ProgressMeter -    tig00013605:37249              1.0             227040000      227040000.0
+12:34:01.809 INFO  ProgressMeter -    tig00016896:29104              1.2             268921000      230503714.3
+12:34:11.809 INFO  ProgressMeter -    tig00020366:48607              1.3             310751000      233063250.0
+12:34:21.809 INFO  ProgressMeter -     tig00024589:7383              1.5             353953000      235968666.7
+12:34:31.809 INFO  ProgressMeter -    tig00028931:12363              1.7             396080000      237648000.0
+12:34:41.809 INFO  ProgressMeter -      tig00034101:259              1.8             437006000      238366909.1
+12:34:51.809 INFO  ProgressMeter -     tig00039574:9928              2.0             481470000      240735000.0
+12:35:01.809 INFO  ProgressMeter -     tig00046848:2487              2.2             525615000      242591538.5
+12:35:11.809 INFO  ProgressMeter -    tig00056056:14878              2.3             569575000      244103571.4
+12:35:21.809 INFO  ProgressMeter -    tig00068406:10636              2.5             616315000      246526000.0
+12:35:31.809 INFO  ProgressMeter -    tig00148556:84967              2.7             659136000      247176000.0
+12:35:41.809 INFO  ProgressMeter -   tig00149345:131153              2.8             699003000      246706941.2
+12:35:51.809 INFO  ProgressMeter -    tig00150583:61989              3.0             741855000      247285000.0
+12:36:01.809 INFO  ProgressMeter -    tig00152259:15952              3.2             786137000      248253789.5
+12:36:11.809 INFO  ProgressMeter -    tig00987901:78380              3.3             831519000      249455700.0
+12:36:21.809 INFO  ProgressMeter -    tig00989408:12832              3.5             875905000      250258571.4
+12:36:31.809 INFO  ProgressMeter -    tig00991517:44740              3.7             921598000      251344909.1
+12:36:41.809 INFO  ProgressMeter -    tig00994904:33688              3.8             968069000      252539739.1
+12:36:47.277 INFO  ProgressMeter -     tig00996161:4871              3.9             992845038      252988526.2
+12:36:47.277 INFO  ProgressMeter - Traversal complete. Processed 992845038 total bases in 3.9 minutes.
+12:36:47.512 INFO  FastaAlternateReferenceMaker - Shutting down engine
+[February 6, 2023 12:36:47 PM CST] org.broadinstitute.hellbender.tools.walkers.fasta.FastaAlternateReferenceMaker done. Elapsed time: 3.95 minutes.
+Runtime.totalMemory()=4692901888
+Using GATK jar /cvmfs/argon-private.hpc.uiowa.edu/ssoft/apps/2021.1/linux-centos7-cascadelake/gcc-9.3.0/gatk-4.1.8.1-rxqggrf/bin/gatk-package-4.1.8.1-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /cvmfs/argon-private.hpc.uiowa.edu/ssoft/apps/2021.1/linux-centos7-cascadelake/gcc-9.3.0/gatk-4.1.8.1-rxqggrf/bin/gatk-package-4.1.8.1-local.jar FastaAlternateReferenceMaker -R /Users/amoy2/unc_sinistra_vc/sequences/mudsnail_poly_assem_14032018.arrow12.pilon7.K55.renamed.fasta -O /Users/amoy2/unc_sinistra_vc/sequences/feb_sinistra_reference.fasta -V /Users/amoy2/unc_sinistra_vc/sequences/psin.sorted.RG.RD.RO.RC.SNP.filt.final.vcf

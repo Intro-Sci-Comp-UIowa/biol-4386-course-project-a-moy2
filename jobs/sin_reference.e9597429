@@ -1,0 +1,46 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "gatk/4.1.8.1_gcc-9.3.0"
+   Try: "module spider gatk/4.1.8.1_gcc-9.3.0" to see how to load the
+module(s).
+
+
+
+Using GATK jar /Users/amoy2/miniconda3/share/gatk4-4.2.2.0-1/gatk-package-4.2.2.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /Users/amoy2/miniconda3/share/gatk4-4.2.2.0-1/gatk-package-4.2.2.0-local.jar FastaAlternateReferenceMaker -R /Users/amoy2/unc_sinistra_vc/sequences/mudsnail_poly_assem_14032018.arrow12.pilon7.K55.renamed.fasta -O /Users/amoy2/unc_sinistra_vc/sequences/feb_sinistra_reference.fasta -V /Users/amoy2/unc_sinistra_vc/sequences/psin.sorted.RG.RD.RO.RC.SNP.filt.final.vcf
+11:20:34.650 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/Users/amoy2/miniconda3/share/gatk4-4.2.2.0-1/gatk-package-4.2.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Feb 06, 2023 11:20:34 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+11:20:34.828 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+11:20:34.829 INFO  FastaAlternateReferenceMaker - The Genome Analysis Toolkit (GATK) v4.2.2.0
+11:20:34.829 INFO  FastaAlternateReferenceMaker - For support and documentation go to https://software.broadinstitute.org/gatk/
+11:20:34.829 INFO  FastaAlternateReferenceMaker - Executing as amoy2@argon-itf-bx47-02.hpc on Linux v3.10.0-1160.76.1.el7.x86_64 amd64
+11:20:34.829 INFO  FastaAlternateReferenceMaker - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_302-b08
+11:20:34.830 INFO  FastaAlternateReferenceMaker - Start Date/Time: February 6, 2023 11:20:33 AM CST
+11:20:34.830 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+11:20:34.830 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+11:20:34.830 INFO  FastaAlternateReferenceMaker - HTSJDK Version: 2.24.1
+11:20:34.830 INFO  FastaAlternateReferenceMaker - Picard Version: 2.25.4
+11:20:34.830 INFO  FastaAlternateReferenceMaker - Built for Spark Version: 2.4.5
+11:20:34.830 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+11:20:34.830 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+11:20:34.830 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+11:20:34.830 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+11:20:34.830 INFO  FastaAlternateReferenceMaker - Deflater: IntelDeflater
+11:20:34.830 INFO  FastaAlternateReferenceMaker - Inflater: IntelInflater
+11:20:34.830 INFO  FastaAlternateReferenceMaker - GCS max retries/reopens: 20
+11:20:34.830 INFO  FastaAlternateReferenceMaker - Requester pays: disabled
+11:20:34.831 INFO  FastaAlternateReferenceMaker - Initializing engine
+11:20:35.994 INFO  FeatureManager - Using codec VCFCodec to read file file:///Users/amoy2/unc_sinistra_vc/sequences/psin.sorted.RG.RD.RO.RC.SNP.filt.final.vcf
+11:20:36.409 INFO  FastaAlternateReferenceMaker - Done initializing engine
+11:20:36.432 INFO  ProgressMeter - Starting traversal
+11:20:36.432 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Bases Processed     Bases/Minute
+11:20:37.270 INFO  FastaAlternateReferenceMaker - Shutting down engine
+[February 6, 2023 11:20:37 AM CST] org.broadinstitute.hellbender.tools.walkers.fasta.FastaAlternateReferenceMaker done. Elapsed time: 0.07 minutes.
+Runtime.totalMemory()=2246574080
+***********************************************************************
+
+A USER ERROR has occurred: Input /Users/amoy2/unc_sinistra_vc/sequences/psin.sorted.RG.RD.RO.RC.SNP.filt.final.vcf must support random access to enable queries by interval. If it's a file, please index it using the bundled tool IndexFeatureFile
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.

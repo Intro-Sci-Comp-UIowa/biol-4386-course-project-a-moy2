@@ -1,0 +1,35 @@
+Using GATK jar /Users/amoy2/miniconda3/share/gatk4-4.2.2.0-1/gatk-package-4.2.2.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /Users/amoy2/miniconda3/share/gatk4-4.2.2.0-1/gatk-package-4.2.2.0-local.jar FastaAlternateReferenceMaker -R /Users/amoy2/unc_sinistra_vc/sequences/sinistra_final.fasta -O /Users/amoy2/unc_sinistra_vc/sequences/feb_sinistra_reference.fasta -V /Users/amoy2/unc_sinistra_vc/sequences/psin.sorted.RG.RD.RO.RC.SNP.filt.final.vcf
+08:34:44.641 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/Users/amoy2/miniconda3/share/gatk4-4.2.2.0-1/gatk-package-4.2.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Feb 06, 2023 8:34:44 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+08:34:44.777 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+08:34:44.777 INFO  FastaAlternateReferenceMaker - The Genome Analysis Toolkit (GATK) v4.2.2.0
+08:34:44.777 INFO  FastaAlternateReferenceMaker - For support and documentation go to https://software.broadinstitute.org/gatk/
+08:34:44.777 INFO  FastaAlternateReferenceMaker - Executing as amoy2@argon-itf-bx47-01.hpc on Linux v3.10.0-1160.76.1.el7.x86_64 amd64
+08:34:44.777 INFO  FastaAlternateReferenceMaker - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_302-b08
+08:34:44.777 INFO  FastaAlternateReferenceMaker - Start Date/Time: February 6, 2023 8:34:44 AM CST
+08:34:44.777 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+08:34:44.777 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+08:34:44.778 INFO  FastaAlternateReferenceMaker - HTSJDK Version: 2.24.1
+08:34:44.778 INFO  FastaAlternateReferenceMaker - Picard Version: 2.25.4
+08:34:44.778 INFO  FastaAlternateReferenceMaker - Built for Spark Version: 2.4.5
+08:34:44.778 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+08:34:44.778 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+08:34:44.778 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+08:34:44.778 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+08:34:44.778 INFO  FastaAlternateReferenceMaker - Deflater: IntelDeflater
+08:34:44.778 INFO  FastaAlternateReferenceMaker - Inflater: IntelInflater
+08:34:44.778 INFO  FastaAlternateReferenceMaker - GCS max retries/reopens: 20
+08:34:44.778 INFO  FastaAlternateReferenceMaker - Requester pays: disabled
+08:34:44.778 INFO  FastaAlternateReferenceMaker - Initializing engine
+08:34:44.782 INFO  FastaAlternateReferenceMaker - Shutting down engine
+[February 6, 2023 8:34:44 AM CST] org.broadinstitute.hellbender.tools.walkers.fasta.FastaAlternateReferenceMaker done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2093481984
+***********************************************************************
+
+A USER ERROR has occurred: Fasta index file file:///Users/amoy2/unc_sinistra_vc/sequences/sinistra_final.fasta.fai for reference file:///Users/amoy2/unc_sinistra_vc/sequences/sinistra_final.fasta does not exist. Please see http://gatkforums.broadinstitute.org/discussion/1601/how-can-i-prepare-a-fasta-file-to-use-as-reference for help creating it.
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.
