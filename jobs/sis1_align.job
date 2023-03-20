@@ -1,0 +1,25 @@
+#!/bin/sh
+#$ -m bea
+#$ -M amanda-moy@uiowa.edu
+#$ -N sis2_bwaalign
+#$ -cwd
+#$ -pe 56cpn 56
+
+module load stack/legacy
+module load bwa/0.7.15
+module load tophat/2.1.2
+module load samtools/1.3.1
+module load gatk/4.0.5.2_python-3.6.4
+
+bwa mem -t 24 ~/unc_sinistra_vc/data/feb_sinistra_reference.fasta ~/reads/sister1/Sister1_lane1_20210213000_S30_L001_1.trim.fastq.gz ~/reads/sister1/Sister1_lane1_20210213000_S30_L001_2.trim.fastq.gz  > ~/biol-4386-course-project-a-moy2/data/S1L1.sam
+samtools view -hb -F 260 ~/biol-4386-course-project-a-moy2/data/S1L1.sam > ~/biol-4386-course-project-a-moy2/data/S1L1.bam
+samtools sort -@ 80 ~/biol-4386-course-project-a-moy2/data/S1L1.bam -o ~/biol-4386-course-project-a-moy2/data/S1L1.sort.bam
+bwa mem -t 24 ~/unc_sinistra_vc/data/feb_sinistra_reference.fasta ~/reads/sister1/Sister1_lane2_20210213000_S62_L002_1.trim.fastq.gz ~/reads/sister1/Sister1_lane2_20210213000_S62_L002_2.trim.fastq.gz  > ~/biol-4386-course-project-a-moy2/data/S1L2.sam
+samtools view -hb -F 260 ~/biol-4386-course-project-a-moy2/data/S1L2.sam > ~/biol-4386-course-project-a-moy2/data/S1L2.bam
+samtools sort -@ 80 ~/biol-4386-course-project-a-moy2/data/S1L2.bam -o ~/biol-4386-course-project-a-moy2/data/S1L2.sort.bam
+bwa mem -t 24 ~/unc_sinistra_vc/data/feb_sinistra_reference.fasta ~/reads/sister1/Sister1_lane3_20210213000_S94_L003_1.trim.fastq.gz ~/reads/sister1/Sister1_lane3_20210213000_S94_L003_2.trim.fastq.gz  > ~/biol-4386-course-project-a-moy2/data/S1L3.sam
+samtools view -hb -F 260 ~/biol-4386-course-project-a-moy2/data/S1L3.sam > ~/biol-4386-course-project-a-moy2/data/S1L3.bam
+samtools sort -@ 80 ~/biol-4386-course-project-a-moy2/data/S1L3.bam -o ~/biol-4386-course-project-a-moy2/data/S1L3.sort.bam
+bwa mem -t 24 ~/unc_sinistra_vc/data/feb_sinistra_reference.fasta ~/reads/sister1/Sister1_lane4_20210213000_S126_L004_1.trim.fastq.gz ~/reads/sister1/Sister1_lane4_20210213000_S126_L004_2.trim.fastq.gz  > ~/biol-4386-course-project-a-moy2/data/S1L4.sam
+samtools view -hb -F 260 ~/unc_sinistra_vc/data/S1L4.sam > ~/unc_sinistra_vc/data/S1L4.bam
+samtools sort -@ 80 ~/biol-4386-course-project-a-moy2/data/S1L4.bam -o ~/biol-4386-course-project-a-moy2/data/S1L4.sort.bam
