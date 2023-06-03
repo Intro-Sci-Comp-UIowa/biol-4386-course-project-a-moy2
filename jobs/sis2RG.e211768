@@ -1,0 +1,96 @@
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+stack/legacy:
+Note that there are newer packages available in other stack modules.
+See the following for more information:
+https://wiki.uiowa.edu/display/hpcdocs/Environment+Modules
+https://wiki.uiowa.edu/display/hpcdocs/Argon+Software+List
+
+-------------------------------------------------------------------------------
+
+
+The following have been reloaded with a version change:
+  1) stack/2021.1 => stack/legacy
+
+INFO	2023-06-02 12:56:29	AddOrReplaceReadGroups	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    AddOrReplaceReadGroups -INPUT  /Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L1.sort.bam -OUTPUT  /Users/amoy2/biol-4386-course-project-a-moy2/data/TagS2L1.sort.bam -RGLB library -RGPL illumina -RGPU barcode -RGSM sinistra
+**********
+
+
+12:56:29.771 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/old_Users/amoy2/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Jun 02 12:56:29 CDT 2023] AddOrReplaceReadGroups INPUT=/Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L1.sort.bam OUTPUT=/Users/amoy2/biol-4386-course-project-a-moy2/data/TagS2L1.sort.bam RGLB=library RGPL=illumina RGPU=barcode RGSM=sinistra    RGID=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Fri Jun 02 12:56:29 CDT 2023] Executing as amoy2@argon-itf-bx47-38.hpc on Linux 3.10.0-1160.83.1.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_121-b13; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.26.2
+INFO	2023-06-02 12:56:29	AddOrReplaceReadGroups	Created read-group ID=1 PL=illumina LB=library SM=sinistra
+
+[Fri Jun 02 12:56:29 CDT 2023] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=514850816
+INFO	2023-06-02 12:56:30	AddOrReplaceReadGroups	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    AddOrReplaceReadGroups -INPUT  /Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L2.sort.bam -OUTPUT  /Users/amoy2/biol-4386-course-project-a-moy2/data/TagS2L2.sort.bam -RGLB library -RGPL illumina -RGPU barcode -RGSM sinistra
+**********
+
+
+12:56:30.411 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/old_Users/amoy2/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Jun 02 12:56:30 CDT 2023] AddOrReplaceReadGroups INPUT=/Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L2.sort.bam OUTPUT=/Users/amoy2/biol-4386-course-project-a-moy2/data/TagS2L2.sort.bam RGLB=library RGPL=illumina RGPU=barcode RGSM=sinistra    RGID=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Fri Jun 02 12:56:30 CDT 2023] Executing as amoy2@argon-itf-bx47-38.hpc on Linux 3.10.0-1160.83.1.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_121-b13; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.26.2
+INFO	2023-06-02 12:56:30	AddOrReplaceReadGroups	Created read-group ID=1 PL=illumina LB=library SM=sinistra
+
+[Fri Jun 02 12:56:30 CDT 2023] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=514850816
+INFO	2023-06-02 12:56:30	AddOrReplaceReadGroups	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    AddOrReplaceReadGroups -INPUT  /Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L3.sort.bam -OUTPUT  /Users/amoy2/biol-4386-course-project-a-moy2/data/TagS2L3.sort.bam -RGLB library -RGPL illumina -RGPU barcode -RGSM sinistra
+**********
+
+
+12:56:31.092 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/old_Users/amoy2/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Jun 02 12:56:31 CDT 2023] AddOrReplaceReadGroups INPUT=/Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L3.sort.bam OUTPUT=/Users/amoy2/biol-4386-course-project-a-moy2/data/TagS2L3.sort.bam RGLB=library RGPL=illumina RGPU=barcode RGSM=sinistra    RGID=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Fri Jun 02 12:56:31 CDT 2023] Executing as amoy2@argon-itf-bx47-38.hpc on Linux 3.10.0-1160.83.1.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_121-b13; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.26.2
+INFO	2023-06-02 12:56:31	AddOrReplaceReadGroups	Created read-group ID=1 PL=illumina LB=library SM=sinistra
+
+[Fri Jun 02 12:56:31 CDT 2023] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=514850816
+INFO	2023-06-02 12:56:31	AddOrReplaceReadGroups	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    AddOrReplaceReadGroups -INPUT  /Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L4.sort.bam -OUTPUT  /Users/amoy2/biol-4386-course-project-a-moy2/data/TagS2L4.sort.bam -RGLB library -RGPL illumina -RGPU barcode -RGSM sinistra
+**********
+
+
+12:56:31.728 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/old_Users/amoy2/miniconda3/share/picard-2.26.2-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Fri Jun 02 12:56:31 CDT 2023] AddOrReplaceReadGroups INPUT=/Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L4.sort.bam OUTPUT=/Users/amoy2/biol-4386-course-project-a-moy2/data/TagS2L4.sort.bam RGLB=library RGPL=illumina RGPU=barcode RGSM=sinistra    RGID=1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Fri Jun 02 12:56:31 CDT 2023] Executing as amoy2@argon-itf-bx47-38.hpc on Linux 3.10.0-1160.83.1.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_121-b13; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.26.2
+INFO	2023-06-02 12:56:31	AddOrReplaceReadGroups	Created read-group ID=1 PL=illumina LB=library SM=sinistra
+
+[Fri Jun 02 12:56:31 CDT 2023] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=514850816

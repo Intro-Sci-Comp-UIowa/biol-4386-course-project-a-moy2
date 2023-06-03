@@ -1,0 +1,17 @@
+#!/bin/sh
+#$ -m bea
+#$ -M amanda-moy@uiowa.edu
+#$ -N sis1RG
+#$ -cwd
+#$ -pe 80cpn 80
+
+module load stack/legacy
+module load bwa/0.7.15
+module load tophat/2.1.2
+module load samtools/1.3.1
+module load gatk/4.0.5.2_python-3.6.4
+
+picard AddOrReplaceReadGroups INPUT= ~/biol-4386-course-project-a-moy2/data/A-S1L1.sort.bam OUTPUT= ~/biol-4386-course-project-a-moy2/data/TagS1L1.sort.bam RGLB=library RGPL=illumina RGPU=barcode RGSM=sinistra
+picard AddOrReplaceReadGroups INPUT= ~/biol-4386-course-project-a-moy2/data/A-S1L2.sort.bam OUTPUT= ~/biol-4386-course-project-a-moy2/data/TagS1L2.sort.bam RGLB=library RGPL=illumina RGPU=barcode RGSM=sinistra
+picard AddOrReplaceReadGroups INPUT= ~/biol-4386-course-project-a-moy2/data/A-S1L3.sort.bam OUTPUT= ~/biol-4386-course-project-a-moy2/data/TagS1L3.sort.bam RGLB=library RGPL=illumina RGPU=barcode RGSM=sinistra
+picard AddOrReplaceReadGroups INPUT= ~/biol-4386-course-project-a-moy2/data/A-S1L4.sort.bam OUTPUT= ~/biol-4386-course-project-a-moy2/data/TagS1L4.sort.bam RGLB=library RGPL=illumina RGPU=barcode RGSM=sinistra

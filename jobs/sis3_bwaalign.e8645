@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+stack/legacy:
+Note that there are newer packages available in other stack modules.
+See the following for more information:
+https://wiki.uiowa.edu/display/hpcdocs/Environment+Modules
+https://wiki.uiowa.edu/display/hpcdocs/Argon+Software+List
+
+-------------------------------------------------------------------------------
+
+
+The following have been reloaded with a version change:
+  1) stack/2021.1 => stack/legacy
+
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[E::bwa_idx_load_from_disk] fail to locate the index files
+[E::hts_open_format] fail to open file '/Users/amoy2/biol-4386-course-project-a-moy2/data/A-31L3.sam'
+samtools view: failed to open "/Users/amoy2/biol-4386-course-project-a-moy2/data/A-31L3.sam" for reading: No such file or directory
+[E::bwa_idx_load_from_disk] fail to locate the index files
+/opt/sge/default/spool/argon-itf-bx47-10/job_scripts/8645: line 24: /Users/amoy2/unc_sinistra_vc/data/A-S3L4.bam: No such file or directory

@@ -7,6 +7,6 @@
 
 module load gatk/4.1.8.1_gcc-9.3.0
  gatk FastaAlternateReferenceMaker \
-   -R ~/unc_sinistra_vc/sequences/mudsnail_poly_assem_14032018.arrow12.pilon7.K55.renamed.fasta \
-   -O ~/unc_sinistra_vc/sequences/feb_sinistra_reference.fasta \
-   -V ~/unc_sinistra_vc/sequences/psin.sorted.RG.RD.RO.RC.SNP.filt.final.vcf
+   -R ~/biol-4386-course-project-a-moy2/sequences/mudsnail_poly_assem_14032018.arrow12.pilon7.K55.renamed.fasta \
+   -O ~/biol-4386-course-project-a-moy2/sequences/feb_sinistra_reference.fasta \
+   -V ~/biol-4386-course-project-a-moy2/sequences/psin.sorted.RG.RD.RO.RC.SNP.filt.final.vcf

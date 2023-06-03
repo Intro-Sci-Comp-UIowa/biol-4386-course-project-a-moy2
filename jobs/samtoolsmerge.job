@@ -1,0 +1,18 @@
+#!/bin/sh
+#$ -m bea
+#$ -M amanda-moy@uiowa.edu
+#$ -N s1merge
+#$ -cwd
+#$ -pe 80cpn 80
+
+module load stack/legacy
+module load bwa/0.7.15
+module load tophat/2.1.2
+module load samtools/1.3.1
+module load gatk/4.0.5.2_python-3.6.4
+
+samtools merge -r -f -@ 80 -b ~/biol-4386-course-project-a-moy2/data/Sis1/TagS1L1.sort.bam 
+~/biol-4386-course-project-a-moy2/data/Sis1/TagS1L2.sort.bam 
+~/biol-4386-course-project-a-moy2/data/Sis1/TagS1L3.sort.bam 
+~/biol-4386-course-project-a-moy2/data/Sis1/TagS1L4.sort.bam 
+-O BAM ~/biol-4386-courrse-project/data/sis1_merged.bam

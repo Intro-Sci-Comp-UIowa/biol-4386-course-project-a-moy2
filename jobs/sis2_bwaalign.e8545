@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+stack/legacy:
+Note that there are newer packages available in other stack modules.
+See the following for more information:
+https://wiki.uiowa.edu/display/hpcdocs/Environment+Modules
+https://wiki.uiowa.edu/display/hpcdocs/Argon+Software+List
+
+-------------------------------------------------------------------------------
+
+/opt/sge/default/spool/argon-itf-bx48-16/job_scripts/8545: line 15: /Users/amoy2/unc_sinistra_vc/data/S2L1.sam: No such file or directory
+/opt/sge/default/spool/argon-itf-bx48-16/job_scripts/8545: line 16: /Users/amoy2/unc_sinistra_vc/data/S2L1.bam: No such file or directory
+[E::hts_open_format] fail to open file '/Users/amoy2/unc_sinistra_vc/data/S2L1.bam'
+[bam_sort_core] fail to open '/Users/amoy2/unc_sinistra_vc/data/S2L1.bam': No such file or directory
+/opt/sge/default/spool/argon-itf-bx48-16/job_scripts/8545: line 18: /Users/amoy2/unc_sinistra_vc/data/S2L2.sam: No such file or directory
+/opt/sge/default/spool/argon-itf-bx48-16/job_scripts/8545: line 19: /Users/amoy2/unc_sinistra_vc/data/S2L2.bam: No such file or directory
+[E::hts_open_format] fail to open file '/Users/amoy2/unc_sinistra_vc/data/S2L2.bam'
+[bam_sort_core] fail to open '/Users/amoy2/unc_sinistra_vc/data/S2L2.bam': No such file or directory
+/opt/sge/default/spool/argon-itf-bx48-16/job_scripts/8545: line 21: /Users/amoy2/unc_sinistra_vc/data/S2L3.sam: No such file or directory
+/opt/sge/default/spool/argon-itf-bx48-16/job_scripts/8545: line 22: /Users/amoy2/unc_sinistra_vc/data/S2L3.bam: No such file or directory
+[E::hts_open_format] fail to open file '/Users/amoy2/unc_sinistra_vc/data/S2L3.bam'
+[bam_sort_core] fail to open '/Users/amoy2/unc_sinistra_vc/data/S2L3.bam': No such file or directory
+/opt/sge/default/spool/argon-itf-bx48-16/job_scripts/8545: line 24: /Users/amoy2/unc_sinistra_vc/data/S2L4.sam: No such file or directory
+/opt/sge/default/spool/argon-itf-bx48-16/job_scripts/8545: line 25: /Users/amoy2/unc_sinistra_vc/data/S2L4.bam: No such file or directory
+[E::hts_open_format] fail to open file '/Users/amoy2/unc_sinistra_vc/data/S2L4.bam'
+[bam_sort_core] fail to open '/Users/amoy2/unc_sinistra_vc/data/S2L4.bam': No such file or directory

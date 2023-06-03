@@ -1,0 +1,16 @@
+#!/bin/sh
+#$ -m bea
+#$ -M amanda-moy@uiowa.edu
+#$ -N sis2l1_bwaalign
+#$ -cwd
+#$ -pe 80cpn 80
+
+module load stack/legacy
+module load bwa/0.7.15
+module load tophat/2.1.2
+module load samtools/1.3.1
+module load gatk/4.0.5.2_python-3.6.4
+
+samtools view -hb -F 260 ~/biol-4386-course-project-a-moy2/data/A-S2L1.sam > ~/biol-4386-course-project-a-moy2/data//A-S2L1.bam
+samtools sort -@ 80 ~/biol-4386-course-project-a-moy2/data/A-S2L1.bam -o ~/biol-4386-course-project-a-moy2/data/A-S2L1.sort.bam
+

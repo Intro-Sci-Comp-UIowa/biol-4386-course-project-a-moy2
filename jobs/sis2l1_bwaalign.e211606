@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+stack/legacy:
+Note that there are newer packages available in other stack modules.
+See the following for more information:
+https://wiki.uiowa.edu/display/hpcdocs/Environment+Modules
+https://wiki.uiowa.edu/display/hpcdocs/Argon+Software+List
+
+-------------------------------------------------------------------------------
+
+
+The following have been reloaded with a version change:
+  1) stack/2021.1 => stack/legacy
+
+[E::hts_open_format] fail to open file '/Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L1new.sam'
+samtools view: failed to open "/Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L1new.sam" for reading: No such file or directory
+[E::hts_open_format] fail to open file '/Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L1new.bam'
+[bam_sort_core] fail to open '/Users/amoy2/biol-4386-course-project-a-moy2/data/A-S2L1new.bam': No such file or directory
