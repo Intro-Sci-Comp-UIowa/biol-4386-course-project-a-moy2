@@ -1,0 +1,8 @@
+#!/bin/sh
+#$-m bea
+#$ -M amanda-moy@uiowa.edu
+#$ -N vcftoolz
+#$ -cwd
+#$ -pe 80cpn 80
+
+vcftoolz compare ~/biol-4386-course-project-a-moy2/sequences/sister1.merged.g.vcf ~/biol-4386-course-project-a-moy2/sequences/sister2.merged.g.vcf ~/biol-4386-course-project-a-moy2/sequences/sister3.merged.g.vcf > summary.txt
